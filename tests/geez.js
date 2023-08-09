@@ -1,5 +1,4 @@
-const getServiceProvider = require("../package/index");
-// const removeCountryCode = require("../package/index");
+const getServiceProvider = require("get-nigerian-network-provider");
 
 const result = getServiceProvider("+2349118336065");
 

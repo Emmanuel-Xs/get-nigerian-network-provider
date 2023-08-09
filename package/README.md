@@ -23,13 +23,13 @@ npm install nigerian-network-provider
 Import the package in your code using ES6 import syntax:
 
 ```javascript
-import { getServiceProvider } from "nigerian-network-provider";
+import getServiceProvider from "nigerian-network-provider";
 ```
 
 or using CommonJS require syntax:
 
 ```javascript
-const { getServiceProvider } = require("nigerian-network-provider");
+const getServiceProvider = require("nigerian-network-provider");
 ```
 
 To get the service provider name of a phone number, simply call the `getServiceProvider function` and pass the phone number as an argument.
