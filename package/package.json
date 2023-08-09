@@ -1,6 +1,6 @@
 {
   "name": "get-nigerian-network-provider",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "get the network service provider's name through a Nigerian number",
   "main": "index.js",
   "types": "types/index.d.ts",
