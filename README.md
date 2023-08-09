@@ -1,12 +1,12 @@
-# get-nigerian-phone-number-provider
+# get-nigerian-network-provider
 
 get the network service provider's name tof a Nigerian phone number
 
-<!-- [![Build Status](https://travis-ci.com/Emmanuel-Xs/nigerian-phone-number-provider.svg?branch=main)](https://travis-ci.com/Emmanuel-Xs/nigerian-phone-number-provider)
-[![Coverage Status](https://coveralls.io/repos/github/Emmanuel-Xs/nigerian-phone-number-provider/badge.svg?branch=main)](https://coveralls.io/github/Emmanuel-Xs/nigerian-phone-number-provider?branch=main)
+[![Build Status](https://travis-ci.com/Emmanuel-Xs/nigerian-network-provider.svg?branch=main)](https://travis-ci.com/Emmanuel-Xs/nigerian-network-provider)
+[![Coverage Status](https://coveralls.io/repos/github/Emmanuel-Xs/nigerian-network-provider/badge.svg?branch=main)](https://coveralls.io/github/Emmanuel-Xs/nigerian-network-provider?branch=main)
 
-[![npm version](https://img.shields.io/npm/v/nigerian-phone-number-provider.svg)](https://www.npmjs.com/package/nigerian-phone-number-provider)
-[![License](https://img.shields.io/npm/l/nigerian-phone-number-provider.svg)](https://github.com/your-username/nigerian-phone-number-provider/blob/main/LICENSE) -->
+<!-- [![npm version](https://img.shields.io/npm/v/nigerian-network-provider.svg)](https://www.npmjs.com/package/nigerian-network-provider)
+[![License](https://img.shields.io/npm/l/nigerian-network-provider.svg)](https://github.com/your-username/nigerian-network-provider/blob/main/LICENSE) -->
 
 A simple utility package to determine the network service provider based on Nigerian phone number prefixes.
 
@@ -15,7 +15,7 @@ A simple utility package to determine the network service provider based on Nige
 You can install the package using npm:
 
 ```bash
-npm install nigerian-phone-number-provider
+npm install nigerian-network-provider
 ```
 
 ## Usage
@@ -23,13 +23,13 @@ npm install nigerian-phone-number-provider
 Import the package in your code using ES6 import syntax:
 
 ```javascript
-import { getServiceProvider } from "nigerian-phone-number-provider";
+import { getServiceProvider } from "nigerian-network-provider";
 ```
 
 or using CommonJS require syntax:
 
 ```javascript
-const { getServiceProvider } = require("nigerian-phone-number-provider");
+const { getServiceProvider } = require("nigerian-network-provider");
 ```
 
 To get the service provider name of a phone number, simply call the `getServiceProvider function` and pass the phone number as an argument.
@@ -81,7 +81,7 @@ const result = getServiceProvider("+e2349011234545");
 Here's an example of using the package to determine the service provider of a Nigerian phone number:
 
 ```javascript
-import getServiceProvider from "nigerian-phone-number-provider";
+import getServiceProvider from "nigerian-network-provider";
 
 const result = getServiceProvider("07061260712");
 //or
