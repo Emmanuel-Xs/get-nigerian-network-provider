@@ -1,0 +1,22 @@
+{
+  "name": "get-nigerian-phone-number-provider",
+  "version": "1.0.0",
+  "description": "get the network service provider's name through a Nigerian number",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Emmanuel-Xs/get-nigerian-phone-number-provider.git"
+  },
+  "keywords": [
+    "network-service-provider"
+  ],
+  "author": "Nwaohiri Emmanuel Uzodinma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Emmanuel-Xs/get-nigerian-phone-number-provider/issues"
+  },
+  "homepage": "https://github.com/Emmanuel-Xs/get-nigerian-phone-number-provider#readme"
+}
