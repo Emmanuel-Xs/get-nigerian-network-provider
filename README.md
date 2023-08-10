@@ -88,6 +88,8 @@ const result = getServiceProvider("07061260712");
 const result = getServiceProvider("+2347061260712");
 //or
 const result = getServiceProvider("2347061260712");
+// it also accepts numbers with minimum of 4 digits
+const result = getServiceProvider("0912");
 console.log(result);
 
 // Output:
