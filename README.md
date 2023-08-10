@@ -1,12 +1,12 @@
 # get-nigerian-network-provider
 
-get the network service provider's name tof a Nigerian phone number
+get the network service provider's name of a Nigerian phone number through its number prefix
 
 [![Build Status](https://travis-ci.com/Emmanuel-Xs/nigerian-network-provider.svg?branch=main)](https://travis-ci.com/Emmanuel-Xs/nigerian-network-provider)
 [![Coverage Status](https://coveralls.io/repos/github/Emmanuel-Xs/nigerian-network-provider/badge.svg?branch=main)](https://coveralls.io/github/Emmanuel-Xs/nigerian-network-provider?branch=main)
 
-<!-- [![npm version](https://img.shields.io/npm/v/nigerian-network-provider.svg)](https://www.npmjs.com/package/nigerian-network-provider)
-[![License](https://img.shields.io/npm/l/nigerian-network-provider.svg)](https://github.com/your-username/nigerian-network-provider/blob/main/LICENSE) -->
+[![npm version](https://img.shields.io/npm/v/nigerian-network-provider.svg)](https://www.npmjs.com/package/nigerian-network-provider)
+[![License](https://img.shields.io/npm/l/nigerian-network-provider.svg)](https://github.com/Emmanuel-Xs/nigerian-network-provider/blob/main/LICENSE) 
 
 A simple utility package to determine the network service provider based on Nigerian phone number prefixes.
 
