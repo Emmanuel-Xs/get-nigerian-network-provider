@@ -1,14 +1,33 @@
 # get-nigerian-network-provider
 
-get the network service provider's name of a Nigerian phone number through its number prefix
+A simple utility package to determine the network service provider based on Nigerian phone number
 
-[![Build Status](https://travis-ci.com/Emmanuel-Xs/nigerian-network-provider.svg?branch=main)](https://travis-ci.com/Emmanuel-Xs/nigerian-network-provider)
+Get the network service provider's name of a Nigerian phone number through its number prefix
+
+_example:_
+
+| Phone Number | Network Service Provider |
+| ------------ | ------------------------ |
+| 0803         | MTN                      |
+| 0911         | AIRTEL                   |
+| 0708         | GLO                      |
+| 0905         | 9MOBILE                  |
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [Author](#author)
+- [Acknowledgements](#acknowledgements)
+- [Show your support](#show-your-support)
+- [License](#license)
+
+<!-- [![Build Status](https://travis-ci.com/Emmanuel-Xs/nigerian-network-provider.svg?branch=main)](https://travis-ci.com/Emmanuel-Xs/nigerian-network-provider)
 [![Coverage Status](https://coveralls.io/repos/github/Emmanuel-Xs/nigerian-network-provider/badge.svg?branch=main)](https://coveralls.io/github/Emmanuel-Xs/nigerian-network-provider?branch=main)
 
 [![npm version](https://img.shields.io/npm/v/nigerian-network-provider.svg)](https://www.npmjs.com/package/nigerian-network-provider)
-[![License](https://img.shields.io/npm/l/nigerian-network-provider.svg)](https://github.com/Emmanuel-Xs/nigerian-network-provider/blob/main/LICENSE) 
-
-A simple utility package to determine the network service provider based on Nigerian phone number prefixes.
+[![License](https://img.shields.io/npm/l/nigerian-network-provider.svg)](https://github.com/Emmanuel-Xs/nigerian-network-provider/blob/main/LICENSE)  -->
 
 ## Installation
 
@@ -88,7 +107,7 @@ const result = getServiceProvider("07061260712");
 const result = getServiceProvider("+2347061260712");
 //or
 const result = getServiceProvider("2347061260712");
-// it also accepts numbers with minimum of 4 digits
+// it also accepts numbers with minimum of 4 digits Prefix
 const result = getServiceProvider("0912");
 console.log(result);
 
@@ -124,7 +143,7 @@ Contributions are welcome! Please follow these steps:
 
 Give a ⭐️ if you like this project!
 
-## 📝 License
+## License
 
 This project is licensed under the ISC License. See the [LICENSE](https://opensource.org/license/isc-license-txt/) file for details.
 
