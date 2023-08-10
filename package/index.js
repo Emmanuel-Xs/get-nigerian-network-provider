@@ -1,3 +1,11 @@
+"use strict";
+const __importDefault =
+  (this && this.__importDefault) ||
+  function (mod) {
+    return mod && mod.__esModule ? mod : { default: mod };
+  };
+Object.defineProperty(exports, "__esModule", { value: true });
+
 const networkServiceProviders = require("./networkServiceProvidersList");
 
 const removeCountryCode = function (phoneNumber) {
@@ -17,6 +25,14 @@ function getServiceProvider(phoneNumber) {
 
   phoneNumber = removeCountryCode(phoneNumber);
   const isNumber = !isNaN(phoneNumber);
+
+  if (phoneNumber.length === 0) {
+    error = "Please enter a phone number";
+    return {
+      error,
+      isValid: false,
+    };
+  }
 
   if (!isNumber) {
     error = "Please enter a valid phone number";

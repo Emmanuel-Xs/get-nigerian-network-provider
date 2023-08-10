@@ -1,3 +1,6 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+
 const networkServiceProvidersList = [
   { prefix: "0701", name: "AIRTEL" },
   { prefix: "07020", name: "SMILE" },
